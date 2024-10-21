@@ -1,0 +1,41 @@
+/* General styling for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34; /* Dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    color: #ffffff; /* White text */
+}
+
+/* Title styling */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Clock styling */
+.clock {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: rgba(121, 11, 11, 0.279); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Soft shadow */
+}
+
+/* Responsive styling */
+@media (max-width: 400px) {
+    .clock {
+        font-size: 40px; /* Smaller clock size for mobile */
+    }
+}
